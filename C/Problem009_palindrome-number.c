@@ -24,8 +24,10 @@ bool isPalindrome(int x)
 
 int main()
 {
-    int x = 2147483647;
+    int x;
 
+    printf("Input: ");
+    scanf("%d", &x);
     printf("%s\n", isPalindrome(x)? "true":"false");
 
     return 0;
