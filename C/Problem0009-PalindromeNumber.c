@@ -9,7 +9,7 @@
 
 bool isPalindrome(int x)
 {
-    int rev = 0, copy = x;
+    long long rev = 0, copy = x;
 
     while (x > 0) {
         rev = rev * 10 + x % 10;
